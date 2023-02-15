@@ -1,2 +1,2 @@
 # nomina
-Nómina creada en Radzen Blaazor Studio, Visual Studio 2022 y PostgreSQL
+Nómina creada en Radzen Blazor Studio, Visual Studio 2022 y PostgreSQL
