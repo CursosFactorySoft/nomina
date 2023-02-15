@@ -21,7 +21,6 @@ Nómina creada en Radzen Blazor Studio, Visual Studio 2022 y PostgreSQL
 * **Departamentos**
 
 |Columna|Tipo|Tamaño
-| ------------ | ------------ |
 |dep_nid|SERIAL|
 |dep_cnombre|VARCHAR|50
 |dep_cestado|VARCHAR||10
