@@ -1,0 +1,52 @@
+@page "/add-cargo"
+@attribute [Authorize]
+
+<PageTitle>Add Cargo</PageTitle>
+    <div class="col-md-12">
+        <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">Cannot save Cargo</RadzenAlert>
+        <RadzenTemplateForm TItem="Nomina.Models.dbNomina.Cargo" Data="@cargo" Visible="@(cargo != null && canEdit)" Submit="@FormSubmit">
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="carid" Component="car_id" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cargo.car_id" Name="car_id" />
+                    <RadzenRequiredValidator Component="car_id" Text="car_id is required" />
+                </div>
+            </div>
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="carccodigo" Component="car_ccodigo" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@cargo.car_ccodigo" Name="car_ccodigo" />
+                    <RadzenRequiredValidator Component="car_ccodigo" Text="car_ccodigo is required" />
+                </div>
+            </div>
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="carnombre" Component="car_nombre" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@cargo.car_nombre" Name="car_nombre" />
+                    <RadzenRequiredValidator Component="car_nombre" Text="car_nombre is required" />
+                </div>
+            </div>
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="carsalrio" Component="car_salrio" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cargo.car_salrio" Name="car_salrio" />
+                    <RadzenRequiredValidator Component="car_salrio" Text="car_salrio is required" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end" style="margin-top: 1rem">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Style="margin-right: 0.5rem" Variant="Variant.Flat" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick"  />
+                </div>
+            </div>
+        </RadzenTemplateForm>
+    </div>
+

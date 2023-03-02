@@ -1,0 +1,47 @@
+SSID:	YISETH-PLUS
+Protocolo:	Wi-Fi 5 (802.11ac)
+Tipo de seguridad:	WPA2-Personal
+Fabricante:	Intel Corporation
+Descripción:	Intel(R) Wi-Fi 6 AX201 160MHz
+Versión del controlador:	22.180.0.4
+Banda de red:	5 GHz
+Canal de red	48
+Velocidad de vínculo (recepción/transmisión):	866/866 (Mbps)
+Dirección IPv6 del vínculo local:	fe80::5246:10d5:29a3:8bc2%8
+Dirección IPv4:	192.168.1.12
+Servidores DNS IPv4:	200.21.200.80 (sin cifrar)
+200.21.200.10 (sin cifrar)
+Dirección física (MAC):	80-32-53-FD-D4-5A
+Rebelion2020
+
+
+https://www.radzen.com/blazor-studio/
+
+
+24CK-7VSK52-MVP4ZF-CL9D 
+
+Product: Delphi 10.4.2 Sydney Community Edition 
+
+Serial Number(s): 24CK-7VSK52-MVP4ZF-CL9D 
+
+Login Name: factorysoftlatam@outlook.com 
+
+First Name: FactorySoft 
+
+Last Name: Latam (En construcción) 
+
+If you haven’t already downloaded the software or need to download again, click the link below: 
+Delphi 10.4.2 Sydney 
+https://altd.embarcadero.com/download/radstudio/10.4/RADStudio-1042-esd-4203.exe 
+
+
+
+¿Qué tanto nos engañamaos, si para ser "Ágil", forzamos continuamente a que se trabaje más horas de las inicialmente estableciadas, para cumplir el objetivo o una entrega pactada?  
+
+Bolero 21 - French Latino - Album "Merci"
+
+https://www.youtube.com/watch?v=XwK1pqM4W9o
+https://www.youtube.com/watch?v=CAFrxSkzOWY
+https://www.youtube.com/watch?v=H2Hb95tMqec
+https://learn.microsoft.com/es-es/training/modules/develop-azure-functions/
+https://www.youtube.com/watch?v=5WJfeU8GHYA
